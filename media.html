@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ekun Funmilayo</title>
+</head>
+<body>
+    <main>
+        <h3>Hello everyone! my name is Funmilayo Ekun. I attempt to use media elemnts in this assignment</h3>
+    <picture>
+        <source media ="(min-width: 1025px)" srcset="assets/funmi1.jpeg" style="width: 350px; height: 350px;">
+        <source media ="(min-width: 769x) and (max-width: 1024px)" srcset="assets/funmi2.jpeg" style="width: 350px; height: 350px;">
+        <source media ="(min-width: 481px) and (max-width: 768px)" srcset="assets/funmi3.jpeg" style="width: 350px; height: 350px;">
+        <img src="assets/funmi1.jpeg" alt="A picture of Ekun Funmilayo" role="img" style="width: 350px; height: 330px; border: 2px solid #000; border-radius: 10px;">
+    </picture>
+
+    <figure class="intro">
+        <figcaption>A little about myself: </figcaption>
+        <audio controls>
+            <source src="assets/voice-memo.m4a" type="audio/mpeg">Your browser doesn't support the audio element
+        </audio>
+    </figure>
+
+    <figure class="video">
+        <figcaption>Here is a video of myself: </figcaption>
+        <video controls style="width: 600px; height: 300px; border: 2px solid #fff; border-radius: 10px;">
+            <source src="assets/video.MP4" type="video/mp4">Your browser doesn't support the video element
+        </video>
+    </figure>
+    </main>
+</body>
+</html>
